@@ -2,10 +2,12 @@ import axios from "axios";
 import React, { useState } from "react";
 import "./WeatherApp.css";
 
-const API_KEY = "2ff80e42c38d9dcf1b3b480638f28722";
+const API_KEY = import.meta.env.VITE_API_KEY; //Api key is secretive
+// console.log("API key is:", API_KEY);   //just to test
+// console.log(import.meta.env);    //just to test
 
 function WeatherApp() {
-  const [city, setCity] = useState();
+  const [city, setCity] = useState("");
   const [weather, setWeather] = useState();
   const [error, setError] = useState();
 
