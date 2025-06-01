@@ -19,6 +19,12 @@ This is a simple Weather App built with React JS that shows real-time weather up
 
 ##  Screenshots
 
+1. User Interface of app
+![Weather Screenshot](./Screenshots/weather-preview.png)
+
+2. App performance
+![Weather Screenshot](./Screenshots/weather-display.png)
+
 
 
 
